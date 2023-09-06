@@ -31,6 +31,12 @@ let f: (x: type, y: type) -> return type {
 
 let abe = f;
 ```
+
+### Function Calls
+```
+let a = f(2, 4);
+```
+
 ### Comments
 
 #### For a comment:
