@@ -1,5 +1,5 @@
 # eureka
-William og Valdedalders compiler i Rust :)
+William og Valdedalders _vanvittige_ compiler i Rust :)
 
 ## Language Examples
 
