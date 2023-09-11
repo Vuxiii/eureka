@@ -1,4 +1,5 @@
 # eureka
+
 William og Valdedalders _vanvittige_ compiler i Rust :)
 
 ## Language Examples
@@ -6,12 +7,15 @@ William og Valdedalders _vanvittige_ compiler i Rust :)
 For a simple variable declaration
 
 ### Variables
+
 #### For a constant
+
 ```
 let a: type = some_value;
 ```
 
 #### For a variable that can change
+
 ```
 var a: type = some_value;
 ```
@@ -45,7 +49,6 @@ for row in rows {
 
 #### Structs
 
-
 ```
 type MyStruct: Struct {
     field_a: <type>;
@@ -69,16 +72,21 @@ let another_one: MyStruct = {
 type MyEnum: enum {
     field_a;
     field_b: <type>;
-};  
+};
 
 let my_instance: MyEnum::field_b = {
 
 };
 ```
+
 ### Statements
+
 #### Control Statements
 
+<<<<<<< HEAD
+
 ##### If
+
 ```
 if some_condition {
     body
@@ -88,6 +96,7 @@ if some_condition {
     body
 }
 ```
+
 ##### While
 
 ```
@@ -119,19 +128,23 @@ for element in container {
 ### Expressions
 
 #### Match
+
 ```
 let result: int = match some_expression {
-    
+
 }
 ```
 
 ### Function declarations
+
 ```
 fn fun: (x: type, y: type) -> return type {
   Body
 }
 ```
+
 ### Closures
+
 ```
 let f: (x: type, y: type) -> return type {
    Body
@@ -141,6 +154,7 @@ let abe = f;
 ```
 
 ### Function Calls
+
 ```
 let a = f(2, 4);
 ```
@@ -148,21 +162,26 @@ let a = f(2, 4);
 ### Comments
 
 #### For a comment:
+
 ```
 # This is a comment
 ```
+
 #### For doc-string:
+
 ```
 #!
 ```
 
 #### Multiline comment
+
 ```
-## 
+##
 This is
 A
-Multiline 
+Multiline
 Comment
 ##
 ```
+
 ## Language Spec
