@@ -23,9 +23,23 @@ var a: type = some_value;
 #### Arrays
 
 ```
-let my_array: [some_int] <type>;
+# This is a one dimensional array of type <type>
+let my_array: [number_of_elements] <type>;
 
-let nested: [][] <type>;
+# This is a 'two'-dimensional array of type <type>
+# This gives us rows * cols elements of type <type>
+let nested: [rows][cols] <type>;
+
+
+let nested: [cols][rows] <type>;
+
+nested[x][y] = 2;
+
+for row in rows {
+    for col in cols {
+        nested[row][col] = 0;
+    }
+}
 
 ```
 
@@ -61,10 +75,57 @@ let my_instance: MyEnum::field_b = {
 
 };
 ```
+### Statements
+#### Control Statements
 
+##### If
+```
+if some_condition {
+    body
+} else if another_condition {
+    body
+} else {
+    body
+}
+```
+##### While
+
+```
+while condition {
+    <body>
+}
+```
+
+##### Do
+
+```
+do {
+    <body>
+} until some_condition;
+```
+
+##### For
+
+```
+for (init_statement; some_guard; progress_statement) {
+    <body>
+}
+
+for element in container {
+
+}
+```
+
+### Expressions
+
+#### Match
+```
+let result: int = match some_expression {
+    
+}
+```
 
 ### Function declarations
-
 ```
 fn fun: (x: type, y: type) -> return type {
   Body
