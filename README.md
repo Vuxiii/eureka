@@ -129,7 +129,8 @@ for element in container {
 
 ```
 let result: int = match some_expression {
-    
+    <expression>: <statement>
+    <expression>: <statement>
 }
 ```
 
