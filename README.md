@@ -16,6 +16,53 @@ let a: type = some_value;
 var a: type = some_value;
 ```
 
+### Types
+
+#### Tuples
+
+#### Arrays
+
+```
+let my_array: [some_int] <type>;
+
+let nested: [][] <type>;
+
+```
+
+#### Structs
+
+
+```
+type MyStruct: Struct {
+    field_a: <type>;
+    field_b: <type>;
+};
+
+let my_instance: MyStruct;
+
+my_instance = {
+    field_a = 2;
+};
+
+let another_one: MyStruct = {
+    ...
+}
+```
+
+#### Enums
+
+```
+type MyEnum: enum {
+    field_a;
+    field_b: <type>;
+};  
+
+let my_instance: MyEnum::field_b = {
+
+};
+```
+
+
 ### Function declarations
 
 ```
