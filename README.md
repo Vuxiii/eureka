@@ -83,8 +83,6 @@ let my_instance: MyEnum::field_b = {
 
 #### Control Statements
 
-<<<<<<< HEAD
-
 ##### If
 
 ```
@@ -131,7 +129,7 @@ for element in container {
 
 ```
 let result: int = match some_expression {
-
+    
 }
 ```
 
